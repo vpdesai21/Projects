@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/PNE01/!svn/ver/37661/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp
+END
+getAllAmenityTypes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/getAllAmenityTypes.jsp
+END
+errorPageAmenities.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/errorPageAmenities.jsp
+END
+updateNewsAndEvents.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/updateNewsAndEvents.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/header.jsp
+END
+deleteRewardPointsSuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/deleteRewardPointsSuccess.jsp
+END
+addNewsAndEvents.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PNE01/!svn/ver/40594/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/addNewsAndEvents.jsp
+END
+viewAllAmenities.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/viewAllAmenities.jsp
+END
+viewAllRewardPoints.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PNE01/!svn/ver/40608/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/viewAllRewardPoints.jsp
+END
+getCustomerReward.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PNE01/!svn/ver/40608/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/getCustomerReward.jsp
+END
+addAmenitySuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PNE01/!svn/ver/40594/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/addAmenitySuccess.jsp
+END
+updateAmenity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/updateAmenity.jsp
+END
+updateSuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/updateSuccess.jsp
+END
+getAllNewsAndEvents.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/getAllNewsAndEvents.jsp
+END
+amenities.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/amenities.jsp
+END
+addAmenity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/PNE01/!svn/ver/40594/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/addAmenity.jsp
+END
+rewardPoints.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PNE01/!svn/ver/40608/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/rewardPoints.jsp
+END
+deleteAmenitySuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/deleteAmenitySuccess.jsp
+END
+newsAndEvents.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/newsAndEvents.jsp
+END
+updateRewardPoints.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/updateRewardPoints.jsp
+END
+header-files.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/PNE01/!svn/ver/40296/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/header-files.jsp
+END
+deleteOrUpdateNewsEvents.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/deleteOrUpdateNewsEvents.jsp
+END
+allocateReward.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/PNE01/!svn/ver/40608/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/allocateReward.jsp
+END
+newsEventsSuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/newsEventsSuccess.jsp
+END
+addRewardPoints.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PNE01/!svn/ver/40605/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/addRewardPoints.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PNE01/!svn/ver/40296/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/footer.jsp
+END
+getAllCustomerReward.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/PNE01/!svn/ver/40608/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/getAllCustomerReward.jsp
+END
+adminHome.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/adminHome.jsp
+END
+viewAllRewardPointsCust.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/PNE01/!svn/ver/40608/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/viewAllRewardPointsCust.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/login.jsp
+END
+errorPageNewsEvents.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/errorPageNewsEvents.jsp
+END
+logout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/logout.jsp
+END
+updateRewardPointsSuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PNE01/!svn/ver/40600/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/updateRewardPointsSuccess.jsp
+END
+addRewardPointsSuccess.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/PNE01/!svn/ver/40606/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/WebContent/jsp/addRewardPointsSuccess.jsp
+END

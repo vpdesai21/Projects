@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/PNE01/!svn/ver/35779/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/dao
+END
+RewardPointsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/PNE01/!svn/ver/35779/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/dao/RewardPointsDao.java
+END
+NewsAndEventsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/PNE01/!svn/ver/39519/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/dao/NewsAndEventsDao.java
+END
+AmenityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/PNE01/!svn/ver/34185/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/dao/AmenityDao.java
+END
+AmenityTypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/PNE01/!svn/ver/31898/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/dao/AmenityTypeDao.java
+END
+CustomerRewardsDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PNE01/!svn/ver/35773/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/dao/CustomerRewardsDao.java
+END

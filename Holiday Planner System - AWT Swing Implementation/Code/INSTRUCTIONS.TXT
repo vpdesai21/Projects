@@ -1,0 +1,9 @@
+add all icon, its pid ad getActionommand and package name in "loadicon" method and then call some fuction or write code in rs.next();
+
+
+
+clear str in tour only when the icon buttons are clicked so put str="" in Action performed.... 
+
+
+
+flag thing should be removed altogether...............

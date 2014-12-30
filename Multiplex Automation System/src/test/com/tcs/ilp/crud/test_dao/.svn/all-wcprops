@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/PNE01/!svn/ver/35177/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/test/com/tcs/ilp/crud/test_dao
+END
+AmenityCrudTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/PNE01/!svn/ver/30544/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/test/com/tcs/ilp/crud/test_dao/AmenityCrudTestCase.java
+END
+RewardPointsTestCases.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/PNE01/!svn/ver/35177/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/test/com/tcs/ilp/crud/test_dao/RewardPointsTestCases.java
+END
+AmenityTypeCrudTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PNE01/!svn/ver/30745/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/test/com/tcs/ilp/crud/test_dao/AmenityTypeCrudTestCase.java
+END
+NewsAndEventsTestCases.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PNE01/!svn/ver/31248/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/test/com/tcs/ilp/crud/test_dao/NewsAndEventsTestCases.java
+END
+CustomerRewardTestCases.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PNE01/!svn/ver/29123/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/test/com/tcs/ilp/crud/test_dao/CustomerRewardTestCases.java
+END

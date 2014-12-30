@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<TITLE>Travel Planning System</TITLE>
+<HEAD>
+<script>
+function isDate(txtDate)
+ {
+var objDate,  // date object initialized from the txtDate string
+mSeconds, // txtDate in milliseconds
+day,      // day
+month,    // month
+year;     // year
+if (txtDate.length !== 10) {
+return false;
+}
+if (txtDate.substring(2, 3) !== '/' || txtDate.substring(5, 6) !== '/') {
+return false;
+}
+month = txtDate.substring(0, 2) - 1; // because months in JS start from 0
+day = txtDate.substring(3, 5) - 0;
+year = txtDate.substring(6, 10) - 0;
+if (year < 1000 || year > 3000) {
+return false;
+}
+mSeconds = (new Date(year, month, day)).getTime();
+objDate = new Date();
+objDate.setTime(mSeconds);
+if (objDate.getFullYear() !== year ||
+objDate.getMonth() !== month ||
+objDate.getDate() !== day) {
+return false;
+}
+return true;
+}
+function validateForm()
+{
+var x1=document.forms["myForm"]["fname1"].value;
+var y1=document.forms["myForm"]["lname1"].value;
+var z1=document.forms["myForm"]["bdate1"].value;
+if (x1==null || x1=="" || y1==null || y1=="" || z1==null || z1=="" )
+{
+alert("All Fields are mandatory. Error in Member[1]");
+return false;
+}
+if(!(isDate(z1)))
+{
+alert("Invalid BirthDate1(mm/dd/yyyy)!!");
+return false;
+}
+}
+</script>
+</HEAD>
+<BODY style= "overflow:scroll; background-image:url('/Project/images/family.png') ; background-repeat:no-repeat;"  >
+<div style=" border-style:groove;border-width:2px; ;position:absolute; top:205px ; left:50px; overflow-y:scroll ; overflow-x:hidden; width:50%; height:450px; color:white; margin-left:25%;">
+<form name="myForm" onsubmit="return validateForm()" action="/Project/receiptPage "  method="post">
+<table style="position:relative; top:50px; left:100px; width:70% ; color:white; " border="0">
+<tr style="text-align:center;font-size:20px;text-decoration:underline;">
+<td colspan=2> ENTER DETAILS FOR MEMBER 1</td>
+</tr>
+<tr>
+<td>FIRST NAME : </td>
+<td><input style=" width:200px; height:30px; background-color:black; color:white; font-size:20px;" type= "text" name= "fname1" /></td>
+</tr>
+<tr>
+<td>LAST NAME   : </td>
+<td><input style=" width:200px; height:30px; background-color:black; color:white; font-size:20px;" type= "text" name= "lname1" />
+</td>
+</tr>
+<tr>
+<td>BIRTHDATE   : </td>
+<td><input style="width:200px; height:30px; background-color:black; color:white; font-size:20px;" type= "text" name= "bdate1" />
+</td>
+</tr></table>
+<input style=" position:relative; top:80px; left:200px; width:200px; height:40px; text-align:center; font-weight:bold;  font-size:20px; " name= "Submit" value="Book Package" type="submit" />
+</form>
+</div>
+</BODY>
+</HTML>

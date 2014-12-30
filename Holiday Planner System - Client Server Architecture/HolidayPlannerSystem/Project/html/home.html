@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<TITLE>Travel Planning System</TITLE>
+
+<HEAD>
+<script type="text/javascript">
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=550px,width=650px,left=300,top=100,resizable=no,scrollbars=no,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+function dbCheck()
+{
+var url = window.location.href;
+var q= url.split("?");
+query = q[1];
+var chk = query.split("=");
+	if(chk[1]=="false")
+	{
+	alert("Username/Password is Invalid !!");
+	}
+	else
+	{
+	}
+}
+
+function validateForm()
+{
+var x=document.forms["input"]["username"].value;
+var y=document.forms["input"]["password"].value;
+
+if (x==null || x=="" || y==null || y=="")
+  {
+  alert("Username/Password name must be filled out");
+  return false;
+  }
+}
+</script>
+</HEAD>
+<BODY style= "overflow:scroll; background-image:url('/Project/images/home.png') ; background-repeat:no-repeat;" onload="dbCheck();" >
+				
+<div style=" position:relative; top:210px; left:450px; color:white; font-weight:bold; width:600px" >
+					
+					
+	<form name= "input" onsubmit="return validateForm()" action=" /Project/loginProcessed  "  method= "post" >
+			
+			<input style="position:relative; left:135px; width:197px; height:40px; background-color:transparent; color:white; font-size:30px; border:none" type= "text" name= "username" /><br/>
+					
+			<input style="position:relative; left:135px; top:10px; width:197px; height:40px; background-color:transparent; color:white; font-size:30px; border:none" type= "password" name= "password" /><br/>
+					
+			<input style=" position:relative; top:50px; left:-30px; width:360px; height:40px; text-align:center; font-weight:bold;  font-size:20px; " name= "Submit" value="Login" type="submit" />
+	</form>
+</div>
+
+<div style="position:relative; top:400px; left:500px;">
+<a style="color:white; font-size:25px;" href="JavaScript:newPopup('/Project/html/registerUser.html');">Register New User</a>
+</div>
+				
+</BODY>
+</HTML>
+	  

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>GroupC</display-name>
+	<welcome-file-list>
+		<welcome-file>./jsp/groupCIndex.jsp</welcome-file>
+	</welcome-file-list>
+
+
+	<servlet>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>com.tcs.ilp.crud.controller.LoginController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+
+
+
+
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>NewsAndEventsController</servlet-name>
+		<servlet-class>com.tcs.ilp.crud.controller.NewsAndEventsController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>NewsAndEventsController</servlet-name>
+		<url-pattern>/addNewsAndEvents</url-pattern>
+	</servlet-mapping>
+
+	
+    <servlet-mapping>
+		<servlet-name>NewsAndEventsController</servlet-name>
+		<url-pattern>/updateNewsAndEvents</url-pattern>
+	</servlet-mapping>
+	
+	
+    <servlet-mapping>
+		<servlet-name>NewsAndEventsController</servlet-name>
+		<url-pattern>/getAllNewsAndEvents</url-pattern>
+	</servlet-mapping>
+	
+
+
+	<servlet-mapping>
+		<servlet-name>NewsAndEventsController</servlet-name>
+		<url-pattern>/deleteOrUpdateNewsAndEvents</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>RewardController</servlet-name>
+		<servlet-class>com.tcs.ilp.crud.controller.RewardController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RewardController</servlet-name>
+		<url-pattern>/addRewardPoints</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>RewardController</servlet-name>
+		<url-pattern>/viewAllRewardPoints</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	<servlet-name>RewardController</servlet-name>
+	<url-pattern>/setupForUpdateRewardPoints</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>RewardController</servlet-name>
+		<url-pattern>/updateRewardPoints</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>RewardController</servlet-name>
+		<url-pattern>/deleteRewardPoints</url-pattern>
+	</servlet-mapping>
+	 <servlet-mapping>
+		<servlet-name>RewardController</servlet-name>
+		<url-pattern>/deleteOrUpdateRewardPoints</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RewardController</servlet-name>
+		<url-pattern>/allocateReward</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	
+	<servlet-mapping>
+		<servlet-name>RewardController</servlet-name>
+		<url-pattern>/getCustomerReward</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>RewardController</servlet-name>
+		<url-pattern>/getAllCustomerReward</url-pattern>
+	</servlet-mapping>
+	
+	
+
+
+	<servlet>
+		<servlet-name>AmenityController</servlet-name>
+		<servlet-class>com.tcs.ilp.crud.controller.AmenityController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AmenityTypeController</servlet-name>
+		<servlet-class>com.tcs.ilp.crud.controller.AmenityController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AmenityController</servlet-name>
+		<url-pattern>/addAmenity</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AmenityController</servlet-name>
+		<url-pattern>/getAllAmenitiesByType</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AmenityController</servlet-name>
+		<url-pattern>/setupForAddAmenity</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AmenityController</servlet-name>
+		<url-pattern>/setupForUpdateAmenity</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AmenityController</servlet-name>
+		<url-pattern>/deleteAmenity</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AmenityController</servlet-name>
+		<url-pattern>/getAllAmenityTypes</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>AmenityController</servlet-name>
+		<url-pattern>/updateAmenity</url-pattern>
+	</servlet-mapping>
+</web-app>

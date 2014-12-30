@@ -1,0 +1,22 @@
+
+	
+		div.panel,p.flip
+		{
+		margin:0px;
+		padding:5px;
+		
+		}
+		div.panel
+		{
+		height:150px;
+		display:none;
+		border-top:solid 1px #c3c3c3;
+		
+		}
+		img.panel
+		{
+		height:150px;
+		display:none;
+		border:solid 1px #c3c3c3;
+		}
+

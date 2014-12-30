@@ -1,0 +1,11 @@
+## Credentials for Module-3 Database - Group C 
+ 
+ driverName = oracle.jdbc.driver.OracleDriver
+ ipAddress = 172.26.132.40
+ port = 1521
+ schema = orcl
+ userName = p04c
+ password = p04c
+ url = jdbc:oracle:thin:@172.26.132.40:1521:orcl
+ 
+

@@ -1,0 +1,6 @@
+## Credentials for Module-3 CommonFilePath to store - Group C 
+ 
+ commonImagePath = C:\\Documents and Settings\\588649\\workspace\\GroupC\\WebContent\\SystemImages\\NewsAndEvents\\
+ amenityImagePath = C:\\Documents and Settings\\669049\\workspace\\project-MAS-NEELESH\\WebContent\\SystemImages\\Amenities\\
+ databaseImagePath= ..\\SystemImages\\NewsAndEvents\\
+ dbAmenityImagePath= SystemImages/Amenities/

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PNE01/!svn/ver/38369/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/service
+END
+RewardPointsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/PNE01/!svn/ver/35780/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/service/RewardPointsService.java
+END
+NewsAndEventsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/PNE01/!svn/ver/39394/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/service/NewsAndEventsService.java
+END
+AmenityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PNE01/!svn/ver/38369/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/service/AmenityService.java
+END
+AmenityTypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/PNE01/!svn/ver/34253/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/service/AmenityTypeService.java
+END
+CustomerRewardsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/PNE01/!svn/ver/35781/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/service/CustomerRewardsService.java
+END

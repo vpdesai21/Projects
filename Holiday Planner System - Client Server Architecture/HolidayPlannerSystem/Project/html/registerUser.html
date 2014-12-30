@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<TITLE>Travel Planning System</TITLE>
+
+<HEAD>
+		<script type="text/javascript">
+		function trim(s)
+		{
+		  return s.replace(/^\s+|\s+$/, '');
+		}
+		
+		function dbCheck()
+		{
+		var url = window.location.href;
+		var q= url.split("?");
+		query = q[1];
+		var chk = query.split("=");
+			if(chk[1]=="false")
+			{
+			alert("Username Already Exists !!");
+			}
+			else if(chk[1]=="true")
+			{
+			window.close();
+			}
+		}
+		
+		function isValidEmail(fld) 
+		{
+		    var tfld = trim(fld);           
+			var emailFilter = /^[^@]+@[^@.]+\.[^@]*\w\w$/ ;
+			var illegalChars= /[\(\)\<\>\,\;\:\\\"\[\]]/ ;
+			
+			if ( !emailFilter.test(tfld) || tfld.match(illegalChars)) 
+			{
+				return false;
+			} 
+			return true;
+		}
+
+
+		function isValidPhone(fld)
+		{
+			
+		   if ( isNaN(parseInt(fld)) || !(fld.length == 10)) {
+				
+				return false;
+			}
+			return true;
+		}
+		
+		function isDate(txtDate) 
+		{
+			var objDate,  // date object initialized from the txtDate string
+				mSeconds, // txtDate in milliseconds
+				day,      // day
+				month,    // month
+				year;     // year
+			// date length should be 10 characters (no more no less)
+			if (txtDate.length !== 10) {
+				return false;
+			}
+			// third and sixth character should be '/'
+			if (txtDate.substring(2, 3) !== '/' || txtDate.substring(5, 6) !== '/') {
+				return false;
+			}
+			// extract month, day and year from the txtDate (expected format is mm/dd/yyyy)
+			// subtraction will cast variables to integer implicitly (needed
+			// for !== comparing)
+			month = txtDate.substring(0, 2) - 1; // because months in JS start from 0
+			day = txtDate.substring(3, 5) - 0;
+			year = txtDate.substring(6, 10) - 0;
+			// test year range
+			if (year < 1000 || year > 3000) {
+				return false;
+			}
+			// convert txtDate to milliseconds
+			mSeconds = (new Date(year, month, day)).getTime();
+			// initialize Date() object from calculated milliseconds
+			objDate = new Date();
+			objDate.setTime(mSeconds);
+			// compare input date and parts from Date() object
+			// if difference exists then date isn't valid
+			if (objDate.getFullYear() !== year ||
+				objDate.getMonth() !== month ||
+				objDate.getDate() !== day) {
+				return false;
+			}
+			// otherwise return true
+			return true;
+		}
+		
+		function validateForm()
+		{
+		var a=document.forms["input"]["username"].value;
+		var b=document.forms["input"]["password1"].value;
+		var c=document.forms["input"]["password2"].value;
+		var d=document.forms["input"]["firstname"].value;
+		var e=document.forms["input"]["lastname"].value;
+		var f=document.forms["input"]["birthdate"].value;
+		var g=document.forms["input"]["address"].value;
+		var h=document.forms["input"]["phoneno"].value;
+		var i=document.forms["input"]["email"].value;
+		var radios = document["input"].elements["gender"];
+		var r=null;
+		var txtDate = document.forms["input"]["birthdate"].value;
+		
+		
+		
+		for (var i=0; i <radios.length; i++) { 
+		  if (radios[i].checked) { 
+		   r=radios[i].value; 
+		  } 
+		 } 
+		  
+		   if (a==null || a=="" || b==null || b=="" || c==null || c=="" || d==null || d=="" || e==null || e=="" || f==null || f=="" || g==null || g=="" || h==null || h=="" || i==null || i=="" || r==null || r=="")
+		  {
+		  alert("All Fields are Mandatory !!");
+		  return false;
+		  }
+		  
+		  if(!(b==c))
+		  {
+		  alert("Invalid Passwords !!");
+		  return false;
+		  }
+		  
+		  if(!(isDate(txtDate)))
+		  {
+		  document.forms["input"]["birthdate"].value="";
+		  alert("Invalid BirthDate !!");
+		  return false;
+		  }
+		  
+		  if(!(isValidPhone(h)))
+		  {
+		  document.forms["input"]["phoneno"].value = "";
+		  alert("Invalid Phone Number !!");
+		  return false;
+		  }
+		  
+		  if(!(isValidEmail(i)))
+		  {
+		  document.forms["input"]["email"].value="";
+		  alert("Invalid E-Mail Id !!");
+		  return false;
+		  }
+		}
+		</script>
+
+</HEAD>
+<BODY style= "overflow:scroll; background-image:url('/Project/images/reg1.png') ; background-repeat:no-repeat" onload="dbCheck();" >
+
+<div style=" position:relative; top:42px; left:100px; color:white; font-weight:bold; width:400px" >
+					
+					
+	<form name= "input" onsubmit="return validateForm()" action=" /Project/registerProcessed  "  method= "post" >
+			
+			<input style="position:relative; left:145px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "text" name= "username" /><br/>
+					
+			<input style="position:relative; left:145px; top:18px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "password" name= "password1" /><br/>
+			
+			<input style="position:relative; left:145px; top:30px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "password" name= "password2" /><br/>
+			
+			<input style="position:relative; left:145px; top:45px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "text" name= "firstname" /><br/>
+			
+			<input style="position:relative; left:145px; top:60px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "text" name= "lastname" /><br/>
+			
+			<input style="position:relative; left:145px; top:75px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "text" name= "birthdate" /><br/>
+			
+			<div style="position:relative; left:135px; top:90px; font-size:20px; color:white;">
+			<input type= "radio" name= "gender" value="m" />Male
+			<input type= "radio" name= "gender" value="f"/>Female
+			</div>
+			
+			<input style="position:relative; left:145px; top:105px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "text" name= "address" /><br/>
+			
+			<input style="position:relative; left:145px; top:122px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "text" name= "phoneno" /><br/>
+			
+			<input style="position:relative; left:145px; top:138px; width:190px; height:25px; background-color:transparent; color:white; font-size:20px; border:none" type= "text" name= "email" /><br/>
+			
+			
+			<input style=" position:relative; top:160px; left:-30px; width:360px; height:30px; text-align:center; font-weight:bold;  font-size:20px; " name= "Submit" value="Register" type="submit" />
+	</form>
+</div>	
+
+</BODY>
+</HTML>

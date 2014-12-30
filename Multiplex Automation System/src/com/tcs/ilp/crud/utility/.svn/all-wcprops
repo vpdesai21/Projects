@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/PNE01/!svn/ver/35169/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/utility
+END
+NewsAndEventsExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/PNE01/!svn/ver/30711/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/utility/NewsAndEventsExistsException.java
+END
+AmenityAlreadyExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/PNE01/!svn/ver/31220/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/utility/AmenityAlreadyExistsException.java
+END
+RewardAllocationRangeAlreadyExists.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/PNE01/!svn/ver/35169/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/utility/RewardAllocationRangeAlreadyExists.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/PNE01/!svn/ver/31205/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/utility/Constants.java
+END
+ConnectionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/PNE01/!svn/ver/31210/p04/ProjectDelivery/Project1/GroupC/Code/Project-MAS/src/com/tcs/ilp/crud/utility/ConnectionUtil.java
+END
