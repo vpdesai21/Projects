@@ -1,0 +1,18 @@
+include ./templates/header
+
+body
+	#main_container
+		include ./templates/top-bar
+				
+		#main-content			
+			include ./templates/breadcrumb
+			
+			include ./templates/left-nav
+			
+			.center_content
+				each product in products
+					include ./templates/product-template
+					
+			include ./templates/right-nav
+					
+include ./templates/footer

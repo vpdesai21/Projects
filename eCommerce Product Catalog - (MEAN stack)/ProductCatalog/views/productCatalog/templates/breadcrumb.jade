@@ -1,0 +1,10 @@
+.crumb_navigation Navigation : 
+	span.current Home 
+	- if (typeof(product) !== "undefined")
+		span &gt; 
+		span.current !{product.productCategory} 
+		span &gt; 
+		span.current !{product.productName} 
+	- if (typeof(categoryName) !== "undefined")	
+		span &gt; 
+		span.current !{categoryName}

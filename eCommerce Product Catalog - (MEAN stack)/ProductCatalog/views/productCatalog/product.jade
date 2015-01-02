@@ -1,0 +1,20 @@
+include ./templates/header
+
+body
+	#main_container
+		include ./templates/top-bar
+		
+		#main-content		
+			include ./templates/breadcrumb
+			
+			include ./templates/left-nav
+				
+			.center_content
+			- if (typeof(product) !== "undefined")
+				include ./templates/product-details
+			- else
+				include ./templates/error
+					
+			include ./templates/right-nav
+					
+include ./templates/footer

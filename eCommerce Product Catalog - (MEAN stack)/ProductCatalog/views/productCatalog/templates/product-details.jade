@@ -1,0 +1,25 @@
+.prod_box_big
+	.top_prod_box_big
+	
+	.center_prod_box_big
+		.product_img_big
+			a(href="/productCatalog/#{product.productCategory}/#{product.productId}")
+				img(src="/images/#{product.productCategory}_#{product.productId}.jpg",alt="#{product.productName}")
+		.details_big_box
+			.product_title_big
+				a(href="/productCatalog/#{product.productCategory}/#{product.productId}") !{product.productName}
+			
+			.specifications
+			- if(product.productCategory === 'car')
+				include ../car/template
+			- if(product.productCategory === 'laptop')
+				include ../laptop/template
+			- if(product.productCategory === 'tv')
+				include ../tv/template
+			
+			.prod_price_big
+				span.price $!{product.productPrice}
+			
+			a.addtocart(href="/productCatalog/redirect/#{product.productId}") Buy Now
+			
+	.bottom_prod_box_big

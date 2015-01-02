@@ -1,0 +1,11 @@
+.prod_box
+	.top_prod_box
+	.center_prod_box
+		.product_title
+			a(href="/productCatalog/#{product.productCategory}/#{product.productId}") !{product.productName}
+		.product_img
+			a(href="/productCatalog/#{product.productCategory}/#{product.productId}")
+				img(src="/images/#{product.productCategory}_#{product.productId}.jpg",alt="#{product.productName}")
+		.prod_price
+			span.price $!{product.productPrice}
+	.bottom_prod_box
