@@ -1,0 +1,21 @@
+div
+	a(href="/#{product.url}")
+		img(src="#{product.objectImageOne}",alt="#{product.objectName}")
+				
+if(typeof(product.objectName) !== "undefined")
+	strong Product Name : 
+	span !{product.objectName}
+	br
+	br
+	
+if(typeof(product.objectDesc) !== "undefined")
+	strong Product Description : 
+	span !{product.objectDesc}
+	br
+	br
+
+if(typeof(product.objectPrice) !== "undefined")
+	strong Product Price : 
+	span !{product.objectPrice}
+	br
+	br
