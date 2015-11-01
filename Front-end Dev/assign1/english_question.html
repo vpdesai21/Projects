@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="SCO Login">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="vishwadesai" />
+		
+		<title>Question 3</title>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<script src="js/custom.js"></script>
+		
+	</head>
+
+	<body>
+		<div id="question" class="container">
+			<header>
+				<h2>
+					Question 3
+				</h2>
+			</header>
+			
+			<div class="wrapper">			
+				<section class="left">
+					<form class="form-2" method="post">
+						<fieldset>
+								<legend>
+								As per the latest Twitter news, complete the article snippet given by selecting appropriate choices for the blanks
+								</legend>
+								<data id="correct-answer1" value="a"></data>
+								<div>
+									<input type="radio" name="blank1" value="$650" onclick="fillBlank1()">
+										Option 1 Mark 1 : $650
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="blank1" value="$550" onclick="fillBlank1()">
+										Option 2 Mark 1 : $550
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="blank1" value="$750" onclick="fillBlank1()">
+										Option 3 Mark 1 : $750
+									</input>
+								</div>
+								<br/><br/>
+								
+								<data id="correct-answer2" value="a"></data>
+								<div>
+									<input type="radio" name="blank2" value="Twitter" onclick="fillBlank2()">
+										Option 1 Mark 2 : Twitter
+									</input>
+								</div>
+								<br/>
+								<div stlye="height: 150px;">
+									<input type="radio" name="blank2" value="Google" onclick="fillBlank2()">
+										Option 2 Mark 2 : Google
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="blank2" value="Facebook" onclick="fillBlank2()">
+										Option 3 Mark 2 : Facebook
+									</input>
+								</div>
+						</fieldset>
+					</form>
+				</section>
+				<section class="right">
+					<p class="content">
+						" Twitter wants more cash. The company announced two <mark id="fill1">$__________</mark> million debt offerings in a filing today, each with a potential $100 increase provided that the sales are oversubscribed. Assuming full tip, including the $100 million boosters, <mark id="fill2">_____________</mark> will rise up to $1.5 billion with the two offerings. "
+						<br/><br/>
+						<em>Source : http://techcrunch.com/2014/09/10/twitter-to-rise-up-to-1.5b-in-debt-offering/</em>
+					</p>
+				</section>
+			</div>
+			
+			<footer>
+				<p class="left">
+					<button type="button" name="submit" onclick="checkAnswer3()">Submit & Next Question</button>
+				</p>
+				<p class="right">
+					<button type="reset" name="reset">Cancel & Clear Selection</button>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

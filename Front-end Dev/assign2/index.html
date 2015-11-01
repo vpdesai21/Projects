@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<script src="custom.js"></script>
+		
+	</head>
+	
+	<body>
+		<div class="container">
+		<header>
+		<h1>Sign Up</h1>
+		</header>
+		
+		<div  class="form">
+			<form id="registerform" method="post"> 
+				<p class="register">
+					<label for="userid">Username :</label>
+				</p> 
+				<input id="userid" name="userid" placeholder="Username" required="" tabindex="1" type="text" autofocus /> 
+
+				<p class="register">
+					<label for="password">Password :</label>
+				</p>
+				<label id="opass_indicator">				
+					<input id="password" name="password" placeholder="Password" required="" tabindex="2" type="password" /> 
+				</label>
+				
+				<div class="progress" style="width:70%">
+					<div id="password_strength" class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+				</div>
+				
+				<p class="register">
+					<label for="confirm_password">Confirm Password :</label>
+				</p> 
+				<label id="pass_indicator">
+					<input id="confirm_password" name="confirm_password" placeholder="Confirm Password" required="" tabindex="3" type="password" />
+				</label> 
+				
+				<p class="register">
+					<label for="email">Email</label>
+				</p> 
+				<input id="email" name="email" placeholder="example@domain.com" required="" tabindex="4" type="email" />
+				
+				<p class="register">
+					<label for="confirm_email">Confirm Email</label>
+				</p> 
+				<label id="email_indicator">
+					<input id="confirm_email" name="confirm_email" placeholder="example@domain.com" required="" tabindex="5" type="email" />
+				</label>
+
+				<p class="register">
+					<label>Security Question 1</label>
+				</p> 
+				<label class="question"> 
+					<select class="select-style" name="question1" id="question1" tabindex="6">
+						<option  value="01">Sum of 2 + 3</option>
+						<option value="02">Sum of 100 + 200</option>
+						<option value="03" >23 X 100</option>
+						<option value="04">Capital of India</option>
+						<option value="05">Capital of USA</option>	
+					</select>
+				</label>
+				<p class="register">					
+					<label>
+						Security Answer 1
+					</label>
+				</p>
+				<input class="answer" name="answer1" id="answer1"  placeholder="Security Answer" required="" tabindex="7" type="text" />
+				
+				<p class="register">
+					<label>Security Question 2</label>
+				</p> 
+				<label class="question"> 
+					<select class="select-style" name="question2" id="question2" tabindex="8">
+						<option  value="01">Sum of 2 + 3</option>
+						<option value="02">Sum of 100 + 200</option>
+						<option value="03" >23 X 100</option>
+						<option value="04">Capital of India</option>
+						<option value="05">Capital of USA</option>	
+					</select>
+				</label>
+				<p class="register">					
+					<label>
+						Security Answer 2
+					</label>
+				</p>
+				<input class="answer" name="answer2" id="answer2"  placeholder="Security Answer" required="" tabindex="9" type="text" />
+				
+
+				<p class="register">
+					<label for="phone">Mobile phone</label>
+				</p> 
+				<label id="phone_indicator">
+					<input id="phone" name="phone" maxlength="10" placeholder="" required="" tabindex="10" type="text" />
+				</label>
+				<br/>
+				
+				<p class="register">
+					<label for="address">Address :</label>
+				</p> 
+				<textarea id="address" name="address" rows="5" cols="55" tabindex="11"></textarea>
+				
+				<p class="register">
+					<label for="address">Areas of Interest :</label>
+				</p> 
+				<textarea id="area_of_interest" name="area_of_interest" rows="5" cols="55" tabindex="12"></textarea>
+				
+				<input class="button" name="submit" id="submit" tabindex="13" value="Sign me up!" type="button" data-toggle="modal" data-target="#myModal"/> 	 
+			</form> 
+		</div>      
+	</div>
+
+	
+	  <!-- Modal -->
+	  <div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Modal Header</h4>
+			</div>
+			<div class="modal-body">
+			  <img id="success-image" src="images/tick.png" width="50" height="50" style="display:none;"/>
+			  <img id="failure-image" src="images/cross.png" width="50" height="50" style="display:none;"/>
+			  <p>Some text in the modal.</p>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		  
+		</div>
+	  </div>
+	  
+	</div>
+	
+	</body>
+</html>

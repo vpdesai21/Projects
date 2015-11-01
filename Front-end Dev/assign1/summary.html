@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="SCO Login">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="vishwadesai" />
+		
+		<title>Score Card</title>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<script src="js/custom.js"></script>
+		
+	</head>
+
+	<body  onload="scoreFunction()">
+		<div id="question" class="container">
+			<header>
+				<h2>
+					Score Card
+				</h2>
+			</header>
+			
+			<div class="wrapper">			
+				<section class="summary-section">
+					<details>
+					  <summary>Quantitative Section</summary>
+					  <p>Number of Questions Answered : <span id="quant_count"></span></p>
+					  <p>Number of Correct Answers : <span id="quant_correct"></span></p>
+					  <p>Score : <span id="quant_score"></span></p>
+					</details>
+					
+					<details>
+					  <summary>Reading Section</summary>
+					  <p>Number of Questions Answered : <span id="verbal_count"></span></p>
+					  <p>Number of Correct Answers : <span id="verbal_correct"></span></p>
+					  <p>Score : <span id="verbal_score"></span></p>
+					</details>
+					
+					<details>
+					  <summary>Audio/Video Section</summary>
+					  <p>Number of Questions Answered : <span id="video_count"></span></p>
+					  <p>Number of Correct Answers : <span id="video_correct"></span></p>
+					  <p>Score : <span id="video_score"></span></p>
+					</details>
+
+				</section>
+			</div>
+			
+			<footer id="score-footer">
+				<p>
+					<h1> Thank You!!</h1>
+					<button type="button" name="submit" onclick="finish()">Finish</button>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

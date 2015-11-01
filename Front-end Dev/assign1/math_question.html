@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="SCO Login">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="vishwadesai" />
+		
+		<title>Question 1</title>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<script src="js/custom.js"></script>
+		
+	</head>
+
+	<body>
+		<div id="question" class="container">
+			<header>
+				<h2>
+					Question 1
+				</h2>
+			</header>
+			
+			<div class="wrapper">			
+				<section class="left">
+					<form class="form-2" method="post">
+						<fieldset>
+								<legend>
+								Given points (x1, y1) and (x2, y2) select formula to find the equation of the given line
+								</legend>
+								<data id="correct-answer" value="a"></data>
+								<div>
+									<input type="radio" name="answer" value="a">
+										<math>
+											<mrow>
+												<mi>y</mi>
+												<mo>=</mo>
+												<mi>m</mi><mi>x</mi><mo>&#43;</mo><mi>b</mi>
+											</mrow>
+										</math>
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="answer" value="b">
+										<math>
+											<mrow>
+												<msup>
+													<mrow>
+														<mfenced>
+															<mrow><mi>x</mi><mo>&#x2212;</mo><mi>h</mi></mrow>
+														</mfenced>
+													</mrow>
+													<mn>2</mn>
+												</msup>
+												<mo>&#43;</mo>
+												<msup>
+													<mrow>
+														<mfenced>
+															<mrow><mi>y</mi><mo>&#x2212;</mo><mi>k</mi></mrow>
+														</mfenced>
+													</mrow>
+													<mn>2</mn>
+												</msup>
+												<mo>=</mo>
+												<msup>
+													<mi>r</mi><mn>2</mn>
+												</msup>
+											</mrow>
+										</math>	
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="answer" value="c">
+										<math>
+											<mrow>
+												<mi>y</mi>
+												<mo>&#x2212;</mo>
+												<msub>
+													<mi>y</mi>
+													<mn>1</mn>
+												</msub>
+												<mo>=</mo>
+												<mi>m</mi>
+												<mfenced>
+													<mrow>
+														<mi>x</mi>
+														<mo>&#x2212;</mo>
+														<msub><mi>x</mi><mn>1</mn></msub>
+													</mrow>
+												</mfenced>
+											</mrow>
+										</math>	
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="answer" value="d">
+										<math>
+											<mrow>
+												<mi>y</mi>
+												<mo>&#x2212;</mo>
+												<msub>
+													<mi>y</mi>
+													<mn>1</mn>
+												</msub>
+												<mo>=</mo>
+												<mfrac>
+													<mrow>
+														<mi>y</mi>
+														<mo>&#x2212;</mo>
+														<msub>
+															<mi>y</mi>
+															<mn>1</mn>
+														</msub>
+													</mrow>
+													<mrow>
+														<mi>x</mi>
+														<mo>&#x2212;</mo>
+														<msub>
+															<mi>x</mi>
+															<mn>1</mn>
+														</msub>
+													</mrow>
+												</mfrac>
+												<mfenced>
+													<mrow>
+														<mi>x</mi>
+														<mo>&#x2212;</mo>
+														<msub><mi>x</mi><mn>1</mn></msub>
+													</mrow>
+												</mfenced>
+											</mrow>
+										</math>
+									</input>
+								</div>
+								<br/><br/>
+						</fieldset>
+					</form>
+				</section>
+				
+				<section class="right">
+					<img class="graph" src="images/question1.png" alt="Question 1"/>
+				</section>
+			</div>
+			
+			<footer>
+				<p class="left">
+					<button type="button" name="submit" onclick="checkAnswer1()">Submit & Next Question</button>
+				</p>
+				<p class="right">
+					<button type="reset" name="reset">Cancel & Clear Selection</button>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

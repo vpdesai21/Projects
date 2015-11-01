@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="SCO Login">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="vishwadesai" />
+		
+		<title>Question 4</title>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<script src="js/custom.js"></script>
+		
+	</head>
+
+	<body>
+		<div id="question" class="container">
+			<header>
+				<h2>
+					Question 4
+				</h2>
+			</header>
+			
+			<div class="wrapper">			
+				<section class="left">
+					<form class="form-2" method="post">
+						<fieldset>
+								<legend>
+								Watch the video and answer the following question. What is the source that is mentioned in the video ?
+								</legend>
+								<data id="correct-answer" value="a"></data>
+								<div>
+									<input type="radio" name="answer" value="a">
+										nasa.gov
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="answer" value="b">
+										data.gov
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="answer" value="c">
+										facebook.com
+									</input>
+								</div>
+								<br/>
+								<div>
+									<input type="radio" name="answer" value="d">
+										apple.net
+									</input>
+								</div>
+								<br/>
+						</fieldset>
+					</form>
+				</section>
+				<section class="right">
+					<video width="500px" height="240" autoplay>
+						<source src="videos/question4.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<p class="video-title">
+						<strong>Expedition 40 Undocks Ending Mission</strong>
+						<br/>
+						Source : http://www.nasa.gov/multimedia/videogallery/index.html#.VBFB5S5dVOE
+					</p>
+				</section>
+			</div>
+			
+			<footer>
+				<p class="left">
+					<button type="button" name="submit" onclick="checkAnswer4()">Submit & Next Question</button>
+				</p>
+				<p class="right">
+					<button type="reset" name="reset">Cancel & Clear Selection</button>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

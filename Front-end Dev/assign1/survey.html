@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="SCO Login">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="vishwadesai" />
+		
+		<title>Survey</title>
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<script src="js/custom.js"></script>
+		
+	</head>
+
+	<body>
+		<div id="question" class="container">
+			<header>
+				<h2>
+					Survey
+				</h2>
+			</header>
+			
+			<div class="wrapper">			
+				<section>
+					<form class="form-2" method="post">
+						<fieldset>
+								<legend>
+								How do you like the center ?
+								</legend>
+								
+								<div>
+									<label class="comment-label">Comments : </label>
+									<textarea rows="14" cols="80" class="inline">
+									</textarea>
+								</div>
+								<br/>
+								
+								<label>
+									Select Test Area Location :
+								</label>
+								<br/><br/>
+								
+								<div>
+									
+									<div class="datalist-inline">
+										<label>City :</label>
+										<input list="cities" name="city">
+										<datalist id="cities">
+											<option value="San Jose">								
+											<option value="San Francisco">								
+											<option value="Mountain View">								
+											<option value="Palo Alto">								
+											<option value="Cupertino">								
+										</datalist>
+									</div>
+									
+									<div class="datalist-inline">
+										<label>Room Number :</label>
+										<input list="rooms" name="room">
+										<datalist id="rooms">
+											<option value="210">								
+											<option value="110">								
+											<option value="410">								
+											<option value="337">								
+											<option value="180">								
+										</datalist>
+									</div>
+								
+								</div>
+						</fieldset>
+					</form>
+				</section>
+			</div>
+			
+			<footer>
+				<p class="left">
+					<button type="button" name="submit" onclick="getScore()">Submit & Get Score</button>
+				</p>
+				<p class="right">
+					<button type="button" name="reset" onclick="getScore()">Skip & Get Score</button>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
