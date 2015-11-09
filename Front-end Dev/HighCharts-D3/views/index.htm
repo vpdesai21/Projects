@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>California Water Reservoir Monitoring</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+		<script src="../js/highcharts.js"></script>
+		<script src="../js/modules/data.js"></script>
+		<script src="../js/modules/exporting.js"></script>
+		<script type="text/javascript" src="../js/custom.js"></script>
+
+		<script src="http://d3js.org/d3.v3.min.js" type="text/javascript"></script>	
+		<script src="../js/liquidFillGauge.js" type="text/javascript"></script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+		<script src="../js/custom_marker.js"></script>
+
+	    <script src="../js/bootstrap.min.js"></script>
+
+		<style>
+	        .liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+	        header {
+	        	text-align: center;
+	        }
+	    </style>
+    	<link href="../css/bootstrap.min.css" rel="stylesheet">
+    	<link href="../css/modern-business.css" rel="stylesheet">
+    	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	</head>
+	<body>
+
+		<header>
+			<h1>California Water Reservoir Monitoring</h1>
+		</header>
+	        <!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
+					  <h4 class="modal-title">Water Level</h4>
+					</div>
+					<div class="modal-body">
+					    <div id="container" style="width: 100%; height: 400px; margin: 0 auto"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	 	<button id="myButton" data-toggle="modal" data-target="#myModal" style="display: none;"></button>
+
+	 	
+	 	<div class="container">
+	 		<hr/>
+		 	<div class="row">
+				<div class="col-md-2">
+					<svg id="fillgauge2"></svg>
+				</div>
+				<div class="col-md-9">
+					<ul style="padding-left: 10%;">
+						<li>Total Water Level : <span> 356782 thousand gallons</span></li>
+						<li>Total Capacity : <span> 506700 thousand gallons</span></li>
+						<li>Percentage : <span>65%</span></li>
+					</ul>
+				</div>
+			</div>
+			<hr/>
+			<div class="row">
+			    <div id="map-canvas" style="height: 600px;" > sss</div>	
+			</div>
+		</div>
+
+	</body>
+
+</html>
